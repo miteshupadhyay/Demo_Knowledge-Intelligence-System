@@ -156,6 +156,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+knwsystem/
+.knwsystem
 
 # Spyder project settings
 .spyderproject
