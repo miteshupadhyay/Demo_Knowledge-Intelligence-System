@@ -8,3 +8,6 @@ knwsystem\Scripts\activate
 
 # Install Dependencies
 pip install -r requirements.txt
+
+# Run the application (main.py)
+python app/main.py

@@ -17,7 +17,7 @@ class LLMService:
         )
         self.chain  = ConversationalRetrievalChain(
             llm=self.llm,
-            retriever=vector_store.as_retriever(),
+            retriever=vector_store.vectore_store.as_retriever(),
             memory=self.memory,
         )
 
